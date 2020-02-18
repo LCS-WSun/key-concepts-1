@@ -38,6 +38,63 @@ let neonGreen = Color(hue: 107, saturation: 61, brightness: 93, alpha: 100)
 // HINT: Remember that all shapes have a fill and a border.
 //       You can turn off the fill or border if desired.
 
+
+My logic and how I would remake this picture using logic
+
+
+//I see that there is 8 collums so I would do like 400 / 8
+
+// Once I know this I can figure out the height and width of the long blue rectangles
+
+// the blue rectangle is 50 by 250
+
+
+// I would then add from the first rectangle with the 50 from the very left side would add 50 to it which is the stride function?
+
+// I will also make sure that the blue rectangles only go to 350
+
+
+
+//Green Rectangles
+//first rectangle start at 50, 400
+// add 50 each time and make it stop at 400 which is a stride function
+
+
+//Adding the orange squares
+// first square 50, 50
+// add 50 until 400
+
+
+//Adding the the top orange squares
+// the first square which is 50 by 400
+
+
+//add 50 each time from the first orange square until 350
+
+
+//Making the top orange rectangle
+// height 350-600
+//width 400
+
+
+//Making the text
+// SLOAN will be inbetween 400 and 500
+
+//Making the othe words
+
+
+//the top words?
+// don't know how to go about it 
+
+
+
+
+
+
+
+
+
+
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
