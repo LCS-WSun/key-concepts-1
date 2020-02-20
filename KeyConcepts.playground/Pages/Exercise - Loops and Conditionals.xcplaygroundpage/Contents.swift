@@ -61,12 +61,23 @@ for horizontalPosition in stride(from: 0, through: 300, by: 100) {
 canvas.fillColor = neonGreen
 
 for horizontalPosition in stride(from: 50, through: 350, by: 100) {
-    
+
     horizontalPosition
-    
+
     canvas.drawRectangle(at: Point(x: horizontalPosition, y: 50), width: 50, height: 350)
 }
 
+//// Draw Green Rectangles
+//canvas.fillColor = neonGreen
+//
+//for horizontalPosition in 0...3 {
+//
+//    horizontalPosition * 100 + 50
+//
+//    canvas.drawRectangle(at: Point(x: horizontalPosition * 100 + 50, y: 50), width: 50, height: 350)
+//
+//
+//}
 
 
 // I would then add from the first rectangle with the 50 from the very left side would add 50 to it which is the stride function?
