@@ -39,14 +39,17 @@ let neonGreen = Color(hue: 107, saturation: 61, brightness: 93, alpha: 100)
 //       You can turn off the fill or border if desired.
 
 
-My logic and how I would remake this picture using logic
+//My logic and how I would remake this picture using logic
 
 
 //I see that there is 8 collums so I would do like 400 / 8
 
 // Once I know this I can figure out the height and width of the long blue rectangles
 
-// the blue rectangle is 50 by 250
+// the blue rectangle is 50 by 350
+canvas.fillColor = lightBlue
+
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 50, height: 350)
 
 
 // I would then add from the first rectangle with the 50 from the very left side would add 50 to it which is the stride function?
