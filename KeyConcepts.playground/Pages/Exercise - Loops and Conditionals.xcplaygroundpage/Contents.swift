@@ -49,10 +49,14 @@ let neonGreen = Color(hue: 107, saturation: 61, brightness: 93, alpha: 100)
 // the blue rectangle is 50 by 350
 canvas.fillColor = lightBlue
 
-canvas.drawRectangle(at: Point(x: 0, y: 0), width: 50, height: 350)
-canvas.drawRectangle(at: Point(x: 100, y: 0), width: 50, height: 350)
-canvas.drawRectangle(at: Point(x: 200, y: 0), width: 50, height: 350)
-canvas.drawRectangle(at: Point(x: 300, y: 0), width: 50, height: 350)
+
+
+for horizontalPosition in stride(from: 0, through: 300, by: 100) {
+    
+    horizontalPosition
+    
+    canvas.drawRectangle(at: Point(x: horizontalPosition, y: 0), width: 50, height: 350)
+}
 
 
 // I would then add from the first rectangle with the 50 from the very left side would add 50 to it which is the stride function?
