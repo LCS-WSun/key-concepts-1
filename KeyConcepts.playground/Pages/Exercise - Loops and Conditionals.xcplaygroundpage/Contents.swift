@@ -47,9 +47,8 @@ let neonGreen = Color(hue: 107, saturation: 61, brightness: 93, alpha: 100)
 // Once I know this I can figure out the height and width of the long blue rectangles
 
 // the blue rectangle is 50 by 350
+// Draw blue rectangles
 canvas.fillColor = lightBlue
-
-
 
 for horizontalPosition in stride(from: 0, through: 300, by: 100) {
     
@@ -57,6 +56,17 @@ for horizontalPosition in stride(from: 0, through: 300, by: 100) {
     
     canvas.drawRectangle(at: Point(x: horizontalPosition, y: 0), width: 50, height: 350)
 }
+
+// Draw Green Rectangles
+canvas.fillColor = neonGreen
+
+for horizontalPosition in stride(from: 50, through: 350, by: 100) {
+    
+    horizontalPosition
+    
+    canvas.drawRectangle(at: Point(x: horizontalPosition, y: 50), width: 50, height: 350)
+}
+
 
 
 // I would then add from the first rectangle with the 50 from the very left side would add 50 to it which is the stride function?
