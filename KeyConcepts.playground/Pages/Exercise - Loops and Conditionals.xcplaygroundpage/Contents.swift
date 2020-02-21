@@ -67,6 +67,9 @@ for horizontalPosition in stride(from: 50, through: 350, by: 100) {
     canvas.drawRectangle(at: Point(x: horizontalPosition, y: 50), width: 50, height: 350)
 }
 
+// Get title text
+canvas.drawText(message: "sloan", at: Point(x: 150, y: 400), size: 100, kerning: 0.0)
+
 //// Draw Green Rectangles
 //canvas.fillColor = neonGreen
 //
