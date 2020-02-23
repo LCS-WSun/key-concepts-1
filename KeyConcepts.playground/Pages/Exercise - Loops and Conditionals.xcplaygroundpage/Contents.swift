@@ -81,6 +81,11 @@ canvas.drawText(message: "sloan", at: Point(x: 150, y: 400), size: 95, kerning: 
 
 //Draw the saturday text on top left corner
 canvas.drawText(message: "saturday", at: Point(x: 17, y: 570), size: 11, kerning: 0.0)
+
+
+//I knew this since it is half between 550 and 600 which is 570, afterwards I would guess and adjust the text to get the right amount of spacing that I think ressembles close enough
+
+
     
 
 //Draw the december text
@@ -94,6 +99,22 @@ canvas.drawText(message: "9pm", at: Point(x: 17, y: 540), size: 11, kerning: 0.0
 
 
 //When making the text should I make each seperate line or is there a way to use one sentence and give it space?
+
+//each spacing between each is 15 and each are leveled with one another so the y is 570, 555 and 540
+
+
+
+//Draw  with text
+canvas.drawText(message: "with", at: Point(x: 150, y: 570), size: 11, kerning: 0.0)
+
+
+//Draw thrush hermit
+canvas.drawText(message: "thrush hermit", at: Point(x: 150, y: 555), size: 11, kerning: 0.0)
+
+
+//Draw the quahogs
+canvas.drawText(message: "the quahogs", at: Point(x: 150, y: 540), size: 11, kerning: 0.0)
+
 
 
 
