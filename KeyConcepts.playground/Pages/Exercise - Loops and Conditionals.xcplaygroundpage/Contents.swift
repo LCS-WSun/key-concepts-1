@@ -79,9 +79,16 @@ for horizontalPosition in stride(from: 50, through: 350, by: 100) {
 canvas.drawText(message: "sloan", at: Point(x: 150, y: 400), size: 95, kerning: 0.0)
 
 
-
-
+//Draw the saturday text on top left corner
+canvas.drawText(message: "saturday", at: Point(x: 17, y: 570), size: 11, kerning: 0.0)
     
+
+//Draw the december text
+canvas.drawText(message: "december 19 1992", at: Point(x: 17, y: 555), size: 11, kerning: 0.0)
+
+
+//When making the text should I make each seperate line or is there a way to use one sentence and give it space?
+
 
 
 
