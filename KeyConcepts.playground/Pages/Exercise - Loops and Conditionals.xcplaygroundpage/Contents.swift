@@ -39,12 +39,18 @@ let neonGreen = Color(hue: 107, saturation: 61, brightness: 93, alpha: 100)
 //       You can turn off the fill or border if desired.
 
 
-//My logic and how I would remake this picture using logic
 
 
-//I see that there is 8 collums so I would do like 400 / 8
+//Make the orange rectangle orange colored
 
-// Once I know this I can figure out the height and width of the long blue rectangles
+canvas.fillColor = deepOrange
+
+
+//Make the orange background
+
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 600)
+
+
 
 // the blue rectangle is 50 by 350
 // Draw blue rectangles
@@ -68,9 +74,20 @@ for horizontalPosition in stride(from: 50, through: 350, by: 100) {
 }
 
 // Get title text
+//canvas.fillColor = white
+
 canvas.drawText(message: "sloan", at: Point(x: 150, y: 400), size: 95, kerning: 0.0)
 
-//// Draw Green Rectangles
+
+
+
+    
+
+
+
+
+//// Draw Green Rectangles as a for in loop (Another way instead of using stride function
+
 //canvas.fillColor = neonGreen
 //
 //for horizontalPosition in 0...3 {
@@ -83,10 +100,32 @@ canvas.drawText(message: "sloan", at: Point(x: 150, y: 400), size: 95, kerning: 
 //}
 
 
+
+
+
+
+
+
+
+
+
+
+
+//THE LOGIC
+
+//My logic and how I would remake this picture using logic
+
+
+//I see that there is 8 collums so I would do like 400 / 8
+
+// Once I know this I can figure out the height and width of the long blue rectangles
+
+
+
+
 // I would then add from the first rectangle with the 50 from the very left side would add 50 to it which is the stride function?
 
 // I will also make sure that the blue rectangles only go to 350
-
 
 
 //Green Rectangles
