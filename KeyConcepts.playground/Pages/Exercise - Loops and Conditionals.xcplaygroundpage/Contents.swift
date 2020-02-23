@@ -34,6 +34,7 @@ let canvas = Canvas(width: 400, height: 600)
 let deepOrange = Color(hue: 12, saturation: 78, brightness: 92, alpha: 100)
 let lightBlue = Color(hue: 195, saturation: 63, brightness: 92, alpha: 100)
 let neonGreen = Color(hue: 107, saturation: 61, brightness: 93, alpha: 100)
+let white = Color(hue: 0, saturation: 0, brightness: 100, alpha: 100)
 
 // HINT: Remember that all shapes have a fill and a border.
 //       You can turn off the fill or border if desired.
@@ -74,9 +75,8 @@ for horizontalPosition in stride(from: 50, through: 350, by: 100) {
 }
 
 // Get title text
-//canvas.fillColor = white
 
-canvas.drawText(message: "sloan", at: Point(x: 150, y: 400), size: 95, kerning: 0.0)
+//textColor: white
 
 
 //Draw the saturday text on top left corner
