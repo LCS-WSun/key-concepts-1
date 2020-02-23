@@ -87,6 +87,12 @@ canvas.drawText(message: "saturday", at: Point(x: 17, y: 570), size: 11, kerning
 canvas.drawText(message: "december 19 1992", at: Point(x: 17, y: 555), size: 11, kerning: 0.0)
 
 
+//Draw the 9pm text
+canvas.drawText(message: "9pm", at: Point(x: 17, y: 540), size: 11, kerning: 0.0)
+
+
+
+
 //When making the text should I make each seperate line or is there a way to use one sentence and give it space?
 
 
