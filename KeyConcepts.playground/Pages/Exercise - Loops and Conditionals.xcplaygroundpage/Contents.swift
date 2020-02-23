@@ -116,6 +116,23 @@ canvas.drawText(message: "thrush hermit", at: Point(x: 150, y: 555), size: 11, k
 canvas.drawText(message: "the quahogs", at: Point(x: 150, y: 540), size: 11, kerning: 0.0)
 
 
+//Draw the text Camaro's cafe
+canvas.drawText(message: "camaro's cafe", at: Point(x: 270, y: 570), size: 11, kerning: 0.0)
+
+// it is half way between 250 and 300 so 270 is where the text is
+
+
+//Draw the text halifax
+canvas.drawText(message: "halifax", at: Point(x: 270, y: 555), size: 11, kerning: 0.0)
+
+
+//Draw the text nova scotia
+canvas.drawText(message: "nova scotia", at: Point(x: 270, y: 540), size: 11, kerning: 0.0)
+
+// I just noticed now that I could have used a stride function for each line such as 570 and finding the distance apart horizontally instead of writing each one individually 
+
+
+
 
 
 
@@ -137,15 +154,7 @@ canvas.drawText(message: "the quahogs", at: Point(x: 150, y: 540), size: 11, ker
 
 
 
-
-
-
-
-
-
-
-
-//THE LOGIC
+//THE LOGIC (pre planning)
 
 //My logic and how I would remake this picture using logic
 
