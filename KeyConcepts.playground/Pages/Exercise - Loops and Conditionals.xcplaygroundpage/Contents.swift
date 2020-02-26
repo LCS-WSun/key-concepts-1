@@ -76,6 +76,10 @@ for horizontalPosition in stride(from: 50, through: 350, by: 100) {
 
 // Get title text
 
+
+canvas.textColor = white
+
+
 //Draw SLOAN
 canvas.drawText(message: "sloan", at: Point(x: 150, y: 400), size: 95, kerning: 0.0)
 
