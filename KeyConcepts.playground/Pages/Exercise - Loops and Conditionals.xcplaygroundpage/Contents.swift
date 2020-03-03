@@ -55,7 +55,13 @@ canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 600)
 
 // the blue rectangle is 50 by 350
 // Draw blue rectangles
+
 canvas.fillColor = lightBlue
+
+canvas.drawShapesWithBorders = false
+
+canvas.drawShapesWithFill = true
+
 
 for horizontalPosition in stride(from: 0, through: 300, by: 100) {
     
@@ -67,12 +73,18 @@ for horizontalPosition in stride(from: 0, through: 300, by: 100) {
 // Draw Green Rectangles
 canvas.fillColor = neonGreen
 
+canvas.drawShapesWithBorders = false
+
+canvas.drawShapesWithFill = true
+
+
 for horizontalPosition in stride(from: 50, through: 350, by: 100) {
 
     horizontalPosition
 
     canvas.drawRectangle(at: Point(x: horizontalPosition, y: 50), width: 50, height: 350)
 }
+
 
 // Get title text
 
